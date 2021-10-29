@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,11 +15,36 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('home');
 });
+
 Route::get('/coba', function () {
     return view('coba');
 })->name('coba');
+
+Route::get('/index', function () {
+    return view('index');
+})->name('index');
+
+Route::get('/wardrobe', function () {
+    return view('wardrobe');
+})->name('wardrobe');
+
+Route::get('/style', function () {
+    return view('style');
+})->name('style');
+
+Route::get('/recommen', function () {
+    return view('recommen');
+})->name('recommen');
+
+Route::get('/resrecommen', function () {
+    return view('resrecommen');
+})->name('resrecommen');
+
+Route::get('/upload', function () {
+    return view('upload');
+})->name('upload');
 
 Auth::routes();
 
