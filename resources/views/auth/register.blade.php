@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
+    <div class="container p-logreg">
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <img class="mx-auto d-block" src="{{ asset('img/register.jpg') }}"  style="width:50%">
@@ -24,6 +24,23 @@
                                         name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                     @error('name')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <div class="mb-3 row">
+                                <label for="email" class="col-md-4 col-form-label text-end">
+                                    {{ __('Username') }} :
+                                </label>
+
+                                <div class="col-md-6">
+                                    <input id="username" type="username" class="form-control @error('username') is-invalid @enderror"
+                                        name="username" value="{{ old('username') }}" required autocomplete="username" autofocus>
+
+                                    @error('username')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
                                         </span>
