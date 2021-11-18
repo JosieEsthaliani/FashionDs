@@ -8,7 +8,7 @@
     </div>
     <div class="col-md-6 homeText homeTextPos">
       <p class="font-weight-bold ">Help You With your</p>
-      <p class="font-weight-bold ">Fashion Needs
+      <p class="font-weight-bold ">Fashion Needs aaaa
       </p>
     </div>
   </div>
