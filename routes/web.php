@@ -26,10 +26,6 @@ Route::get('/index', function () {
     return view('index');
 })->name('index');
 
-Route::get('/wardrobe', function () {
-    return view('wardrobe');
-})->name('wardrobe');
-
 Route::get('/style', function () {
     return view('style');
 })->name('style');
@@ -47,5 +43,9 @@ Route::get('/upload', function () {
 })->name('upload');
 
 Auth::routes();
+
+Route::get('/wardrobe', function () {
+    return view('wardrobe');
+})->name('wardrobe');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
