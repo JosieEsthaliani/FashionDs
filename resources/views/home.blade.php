@@ -8,31 +8,53 @@
     </div>
     <div class="col-md-6 homeText homeTextPos">
       <p class="font-weight-bold ">Help You With your</p>
-      <p class="font-weight-bold ">Fashion Needs aaaa
-      </p>
+      <p class="font-weight-bold ">Fashion Needs</p>
     </div>
   </div>
-  <div class="row bg-image justify-content-center align-items-center p-categoriHome" style="
+</div>
+<div class="container-fluid" style="
     background-image: url('img/homeCol.jpg');
     height: 100vh; background-size: cover;">
-    <p class="txtCategHome p00">Categorical Recommendation</p>
-    <div class="col-md-6 homeText ">
-      <div class="row">
-        <button type="button" class="btn tombol2">Casual</button>
-      </div>
-      <div class="row">
-        <button type="button" class="btn tombol2">Formal</button>
-      </div>
+<div class="row bg-image justify-content-center align-items-center p-categoriHome" >
+    <div class="col py-5">
+      <p class="txtCategHome pt-5 mt-5">Categorical Recommendation</p>
     </div>
-    <div class="col-md-6 homeText  ">
-      <div class="row">
-        <button type="button" class="btn tombol2">Beach</button>
-      </div>
-      <div class="row">
-        <button type="button" class="btn tombol2">Sport</button>
-      </div>
-    </div>
+    
+    
   </div>
+
+  <div class="row"> 
+    <div class="col"></div>
+    <div class="col-md-4 homeText ">
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn tombol2 my-3">Casual</button>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn tombol2 my-3">Formal</button>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-4 homeText  ">
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn tombol2 my-3">Beach</button>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn tombol2 my-3">Sport</button>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>  
 </div>
 
 @endsection
