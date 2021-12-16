@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ImageUploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,3 +50,6 @@ Route::get('/wardrobe', function () {
 })->name('wardrobe');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('image-upload-preview', [ImageUploadController::class, 'index']);
+Route::post('upload-image', [ImageUploadController::class, 'store']);
