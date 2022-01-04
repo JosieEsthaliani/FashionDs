@@ -64,9 +64,8 @@
         </div>
     </div>
     <div class="row justify-content-center my-5">
-        <p class="txtPageTitle"></p>
+        <p class="wardrobe"></p>
+        <iframe src="https://drive.google.com/embeddedfolderview?id=1z11wD_z0VfwqhmJgApexXME1RSomwsYp#grid" style="width:100%; height:1000px; border:-1px;"></iframe>
     </div>
-
 </div>
-
 @endsection
