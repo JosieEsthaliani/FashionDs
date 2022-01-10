@@ -7,10 +7,10 @@
     </div>
     <div class="row justify-content-center my-5 d-flex justify-content-end">
         <div class="col-md-6 homeText ms-auto">
-
+            <button type="button" onclick="window.location='/upload'" class="btn tombol3">add wardrobe</button>
         </div>
         <div class="col-md-6 homeText ms-auto">
-            <div class="row justify-content-center my-5 d-flex justify-content-end">
+            <div class="row justify-content-center d-flex justify-content-end">
                 <div class="col-md-3 homeText ">
                     <!-- <div class="dropdown show">
                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
