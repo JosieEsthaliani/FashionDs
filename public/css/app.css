@@ -16965,6 +16965,34 @@ textarea.form-control-lg {
   color: #4f4f4f;
 }
 
+.tombol3 {
+  background: #744c24;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tombol4 {
+  background: #744c24;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  width: 85%;
+  color: #ffffff;
+}
+
+.btn-col {
+  text-align: center;
+}
+
 .txtNavKecil {
   /*Untuk teks pada navbar*/
   font-family: Open Sans;

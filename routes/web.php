@@ -49,7 +49,26 @@ Route::get('/wardrobe', function () {
     return view('wardrobe');
 })->name('wardrobe');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/resbeach', function () {
+    return view('resbeach');
+})->name('resbeach');
+
+Route::get('/ressport', function () {
+    return view('ressport');
+})->name('ressport');
+
+Route::get('/rescasual', function () {
+    return view('rescasual');
+})->name('rescasual');
+
+Route::get('/resformal', function () {
+    return view('resformal');
+})->name('resformal');
+
+
 
 Route::get('image-upload-preview', [ImageUploadController::class, 'index']);
 Route::post('upload-image', [ImageUploadController::class, 'store']);
+
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

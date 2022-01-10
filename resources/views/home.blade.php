@@ -28,13 +28,13 @@
     <div class="col-md-4 homeText ">
         <div class="row">
           <div class="col">
-            <button type="button" class="btn tombol2 my-3">Casual</button>
+            <button type="button" class="btn tombol2 my-3" onclick="window.location='/rescasual'">Casual</button>
           </div>
           
         </div>
         <div class="row">
           <div class="col">
-            <button type="button" class="btn tombol2 my-3">Formal</button>
+            <button type="button" class="btn tombol2 my-3" onclick="window.location='/resformal'">Formal</button>
           </div>
           
         </div>
@@ -42,13 +42,13 @@
       <div class="col-md-4 homeText  ">
         <div class="row">
           <div class="col">
-            <button type="button" class="btn tombol2 my-3">Beach</button>
+            <button type="button" class="btn tombol2 my-3" onclick="window.location='/resbeach'">Beach</button>
           </div>
           
         </div>
         <div class="row">
           <div class="col">
-            <button type="button" class="btn tombol2 my-3">Sport</button>
+            <button type="button" class="btn tombol2 my-3" onclick="window.location='/ressport'">Sport</button>
           </div>
           
         </div>
